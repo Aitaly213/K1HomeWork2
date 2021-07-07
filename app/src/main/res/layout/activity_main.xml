@@ -10,7 +10,7 @@
         android:id="@+id/iv_url"
         android:layout_width="250dp"
         android:layout_height="250dp"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="@dimen/margin_top_for_iv"
         tools:src="@drawable/ic_launcher_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,7 +20,7 @@
         android:id="@+id/et_url"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="26dp"
+        android:layout_margin="@dimen/default_margin"
         android:hint="@string/please_write_url_pictures"
         android:textColor="@color/black"
         android:textSize="20sp"
@@ -30,7 +30,7 @@
         android:id="@+id/btn_submit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="26dp"
+        android:layout_margin="@dimen/default_margin"
         android:text="@string/submit"
         app:layout_constraintTop_toBottomOf="@+id/et_url" />
 
@@ -38,7 +38,7 @@
         android:id="@+id/btn_random"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="26dp"
+        android:layout_margin="@dimen/default_margin"
         android:text="@string/random"
         app:layout_constraintTop_toBottomOf="@+id/btn_submit" />
 
